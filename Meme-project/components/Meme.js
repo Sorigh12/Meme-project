@@ -2,12 +2,8 @@ import React from "react"
 import memesData from "../memesData.js"
 
 export default function Meme() {
-    const [memeImage, setMemeImage] = React.useState()
-    /**
-     * Challenge: Save the random meme URL in state
-     * - Below the div.form, add an <img /> and set the
-     *   src to the new `memeImage` state you created
-     */
+    const [memeImage, setMemeImage] = React.useState(http://i.imgflip.com/1bij.jpg")
+  
     
     function getMemeImage() {
         const memesArray = memesData.data.memes
